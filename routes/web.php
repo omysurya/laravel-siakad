@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::redirect('/', '/dashboard-general-dashboard');
+Route::redirect('/', '/login');
 
 // Dashboard
 Route::get('/dashboard-general-dashboard', function () {
@@ -261,6 +261,6 @@ Route::get('/credits', function () {
 });
 
 //Hello word
-Route::get('/hello', function(){
+Route::get('/hello', function() {
     return 'hello-wordl';
-})
+});
